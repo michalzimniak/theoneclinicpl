@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FAQ - Najczęściej zadawane pytania - TheOne Clinic">
+    <title>FAQ - TheOne Clinic</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <a href="../index.html">
+                        <img src="../media/logo.jpg" alt="TheOne Clinic Logo" class="logo">
+                    </a>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Strona Główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="onas.html" class="nav-link">O nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="efekty.html" class="nav-link">Efekty przed i po</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="depilacja.html" class="nav-link">Depilacja Laserowa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Laseroterapia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="ipixel.html" class="dropdown-link">iPixel - Laser Frakcyjny</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="dvl.html" class="dropdown-link">DVL - Zmiany Naczyniowe</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="clearskin.html" class="dropdown-link">Clear Skin - Trądzik</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dermapen.html" class="nav-link">Dermapen 4.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="endermologia.html" class="nav-link">Endermologia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Zabiegi Pielęgnacyjne
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="linder.html" class="dropdown-link">Linder Health</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="image.html" class="dropdown-link">Image Skincare</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="badanie.html" class="nav-link">Badanie Skóry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="faq.html" class="nav-link active">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- FAQ Page -->
+    <section class="service-page">
+        <div class="container">
+            <a href="../index.html" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="service-header animate__animated animate__fadeInDown">
+                <h1>Najczęściej zadawane pytania</h1>
+                <div class="service-divider"></div>
+                <p class="service-intro">
+                    Znajdź odpowiedzi na najważniejsze pytania dotyczące naszych zabiegów. 
+                    Jeśli nie znajdziesz odpowiedzi na swoje pytanie, skontaktuj się z nami!
+                </p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeIn">
+                <!-- FAQ Categories -->
+                <div class="faq-categories">
+                    <button class="faq-category-btn active" data-category="general">Ogólne</button>
+                    <button class="faq-category-btn" data-category="treatments">Zabiegi</button>
+                    <button class="faq-category-btn" data-category="preparation">Przygotowanie</button>
+                    <button class="faq-category-btn" data-category="aftercare">Pielęgnacja</button>
+                </div>
+
+                <!-- General Questions -->
+                <div class="faq-section" data-category="general">
+                    <h2><i class="fas fa-question-circle"></i> Pytania ogólne</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy zabiegi są bezpieczne?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, wszystkie oferowane przez nas zabiegi są w pełni bezpieczne. Wykorzystujemy 
+                                certyfikowany sprzęt najnowszej generacji, a zabiegi wykonują wykwalifikowani specjaliści 
+                                z wieloletnim doświadczeniem. Przed każdym zabiegiem przeprowadzamy dokładną konsultację 
+                                i badanie, aby wykluczyć przeciwwskazania.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak umówić się na wizytę?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Najłatwiej umówić się przez platformę Booksy - wystarczy kliknąć przycisk "Umów się przez Booksy" 
+                                na naszej stronie. Możesz również zadzwonić do nas bezpośrednio. Przed pierwszym zabiegiem 
+                                zalecamy umówienie bezpłatnej konsultacji.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy mogę odwołać wizytę?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, prosimy jednak o odwołanie wizyty minimum 24 godziny wcześniej. Możesz to zrobić przez 
+                                Booksy lub telefonicznie. Dzięki temu inni klienci będą mogli skorzystać z wolnego terminu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy oferujecie konsultacje?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, oferujemy bezpłatne konsultacje, podczas których omówimy Twoje potrzeby, 
+                                przeprowadzimy badanie skóry i zaproponujemy optymalny plan zabiegowy dostosowany 
+                                do Twoich oczekiwań i możliwości.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Questions -->
+                <div class="faq-section" data-category="treatments" style="display: none;">
+                    <h2><i class="fas fa-spa"></i> Pytania o zabiegi</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy zabiegi bolą?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Większość naszych zabiegów jest mało inwazyjnych i dobrze tolerowanych. Depilacja laserowa 
+                                może powodować lekkie dyskomfort porównywalny do szczypania. Zabiegi laserem frakcyjnym czy 
+                                Dermapenem wykonujemy z znieczuleniem miejscowym (krem). Endermologia i zabiegi pielęgnacyjne 
+                                są całkowicie bezbolesne i relaksujące.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile trwa jeden zabieg?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Czas zabiegu zależy od jego rodzaju i obszaru:
+                            </p>
+                            <ul>
+                                <li>Depilacja laserowa: 15-60 minut w zależności od obszaru</li>
+                                <li>Laser frakcyjny iPixel: 30-60 minut</li>
+                                <li>DVL/Clear Skin: 20-45 minut</li>
+                                <li>Dermapen 4.0: 60-90 minut (z znieczuleniem)</li>
+                                <li>Endermologia: 35-50 minut</li>
+                                <li>Zabiegi pielęgnacyjne: 60-90 minut</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile zabiegów potrzebuję, aby zobaczyć efekty?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Liczba zabiegów zależy od rodzaju terapii i indywidualnych predyspozycji:
+                            </p>
+                            <ul>
+                                <li>Depilacja: 6-8 zabiegów dla optymalnych rezultatów</li>
+                                <li>Laser frakcyjny: 3-5 zabiegów</li>
+                                <li>DVL: 2-4 zabiegi</li>
+                                <li>Clear Skin: 4-6 zabiegów</li>
+                                <li>Dermapen: 4-6 zabiegów</li>
+                                <li>Endermologia: seria 10-15 zabiegów, 2-3 razy w tygodniu</li>
+                            </ul>
+                            <p>
+                                Pierwsze efekty są często widoczne już po pierwszym zabiegu, ale pełne rezultaty 
+                                osiągamy po ukończeniu zalecanej serii.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jakie są przerwy między zabiegami?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Odstępy między zabiegami są dostosowane do rodzaju terapii:
+                            </p>
+                            <ul>
+                                <li>Depilacja: co 4-8 tygodni (w zależności od okolicy)</li>
+                                <li>Laser frakcyjny: co 4-6 tygodni</li>
+                                <li>DVL/Clear Skin: co 3-4 tygodnie</li>
+                                <li>Dermapen: co 4-6 tygodni</li>
+                                <li>Endermologia: 2-3 razy w tygodniu</li>
+                                <li>Zabiegi pielęgnacyjne: co 2-4 tygodnie</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preparation Questions -->
+                <div class="faq-section" data-category="preparation" style="display: none;">
+                    <h2><i class="fas fa-clipboard-list"></i> Przygotowanie do zabiegu</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak przygotować się do depilacji laserowej?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Przed zabiegiem depilacji:
+                            </p>
+                            <ul>
+                                <li>Ogól włosy na dzień przed zabiegiem (nie depiluj woskiem/cukrem!)</li>
+                                <li>Unikaj opalania przez 2 tygodnie przed zabiegiem</li>
+                                <li>Nie stosuj kremów samoopalających</li>
+                                <li>Skóra powinna być czysta, bez kosmetyków i dezodorantów</li>
+                                <li>Poinformuj nas o przyjmowanych lekach</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak przygotować się do zabiegów laserowych (iPixel, DVL, Clear Skin)?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Przygotowanie do zabiegów laserowych:
+                            </p>
+                            <ul>
+                                <li>Unikaj opalania przez 4 tygodnie przed zabiegiem</li>
+                                <li>Nie stosuj retinoidów przez tydzień przed zabiegiem</li>
+                                <li>Skóra powinna być czysta, bez makijażu</li>
+                                <li>Poinformuj nas o wszystkich lekach i suplementach</li>
+                                <li>Wypij dużo wody dzień przed zabiegiem</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy są przeciwwskazania do zabiegów?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Ogólne przeciwwskazania obejmują:
+                            </p>
+                            <ul>
+                                <li>Ciąża i karmienie piersią (dla większości zabiegów)</li>
+                                <li>Aktywne infekcje skóry w miejscu zabiegu</li>
+                                <li>Choroby autoimmunologiczne (w zależności od zabiegu)</li>
+                                <li>Keloidoza</li>
+                                <li>Świeża opalenizna</li>
+                                <li>Hemofilia i zaburzenia krzepnięcia</li>
+                                <li>Przyjmowanie niektórych leków (np. Roaccutane)</li>
+                            </ul>
+                            <p>
+                                Podczas konsultacji dokładnie omówimy wszystkie przeciwwskazania dla konkretnego zabiegu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aftercare Questions -->
+                <div class="faq-section" data-category="aftercare" style="display: none;">
+                    <h2><i class="fas fa-heart"></i> Pielęgnacja po zabiegu</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile trwa rekonwalescencja?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Czas rekonwalescencji zależy od rodzaju zabiegu:
+                            </p>
+                            <ul>
+                                <li><strong>Depilacja laserowa:</strong> Brak rekonwalescencji, możliwe lekkie zaczerwienienie przez kilka godzin</li>
+                                <li><strong>Laser frakcyjny iPixel:</strong> 3-5 dni złuszczania skóry, 7-10 dni pełnego gojenia</li>
+                                <li><strong>DVL/Clear Skin:</strong> 1-3 dni zaczerwienienia, możliwe delikatne strupki</li>
+                                <li><strong>Dermapen:</strong> 3-7 dni zaczerwienienia i złuszczania</li>
+                                <li><strong>Endermologia:</strong> Brak rekonwalescencji</li>
+                                <li><strong>Zabiegi pielęgnacyjne:</strong> Brak rekonwalescencji</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak pielęgnować skórę po zabiegu?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Ogólne zasady pielęgnacji po zabiegach:
+                            </p>
+                            <ul>
+                                <li>Używaj delikatnych, łagodzących kosmetyków</li>
+                                <li>Stosuj kremy z wysokim filtrem SPF 50+ codziennie</li>
+                                <li>Unikaj bezpośredniego słońca przez 2-4 tygodnie</li>
+                                <li>Nie używaj peelingu mechanicznego przez tydzień</li>
+                                <li>Nawilżaj skórę regularnie</li>
+                                <li>Nie rozdrapuj strupków (jeśli wystąpią)</li>
+                                <li>Unikaj sauny, basenu i gorących kąpieli przez 3-7 dni</li>
+                            </ul>
+                            <p>
+                                Po każdym zabiegu otrzymasz szczegółowe zalecenia dotyczące pielęgnacji.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Co mogę robić po zabiegu?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Po większości zabiegów możesz normalnie funkcjonować. Zalecenia:
+                            </p>
+                            <ul>
+                                <li>Możesz wrócić do pracy (z wyjątkiem intensywnych zabiegów laserowych)</li>
+                                <li>Unikaj intensywnego wysiłku fizycznego przez 24-48h</li>
+                                <li>Możesz stosować makijaż (po 24h dla zabiegów laserowych)</li>
+                                <li>Unikaj gorących kąpieli, sauny, basenu przez 3-7 dni</li>
+                                <li>Nie opalaj się przez 2-4 tygodnie</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jakie mogą wystąpić skutki uboczne?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Większość skutków ubocznych jest przejściowa i łagodna:
+                            </p>
+                            <ul>
+                                <li>Zaczerwienienie (kilka godzin - kilka dni)</li>
+                                <li>Delikatny obrzęk (1-2 dni)</li>
+                                <li>Złuszczanie skóry (3-7 dni dla zabiegów ablacyjnych)</li>
+                                <li>Przejściowe strupki (rzadko, 3-7 dni)</li>
+                                <li>Przejściowe przebarwienia (rzadko, ustępują z czasem)</li>
+                            </ul>
+                            <p>
+                                Jeśli zauważysz niepokojące objawy, skontaktuj się z nami natychmiast.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-contact">
+                    <h3>Nie znalazłeś odpowiedzi na swoje pytanie?</h3>
+                    <p>Skontaktuj się z nami - chętnie rozwiejemy wszystkie Twoje wątpliwości!</p>
+                    <div class="contact-options">
+                        <a href="tel:+48123456789" class="contact-option">
+                            <i class="fas fa-phone"></i> +48 123 456 789
+                        </a>
+                        <a href="https://theonebeautyclinic.booksy.com/a/" target="_blank" class="btn-primary">
+                            <i class="fas fa-calendar-check"></i> Umów konsultację
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 TheOne Clinic. Wszelkie prawa zastrzeżone.</p>
+                    <p>Profesjonalne zabiegi medycyny estetycznej</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/theone_beauty_clinic?igsh=YXlwZ2hiZDVvdGF3&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/17k7A13fA8/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        // FAQ Category Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryBtns = document.querySelectorAll('.faq-category-btn');
+            const faqSections = document.querySelectorAll('.faq-section');
+
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const category = this.getAttribute('data-category');
+                    
+                    faqSections.forEach(section => {
+                        if (section.getAttribute('data-category') === category) {
+                            section.style.display = 'block';
+                            section.classList.add('animate__animated', 'animate__fadeIn');
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // FAQ Accordion
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    const isActive = faqItem.classList.contains('active');
+
+                    // Close all other items
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        item.classList.remove('active');
+                    });
+
+                    // Toggle current item
+                    if (!isActive) {
+                        faqItem.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

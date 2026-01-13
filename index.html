@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TheOne Clinic - Profesjonalne zabiegi medycyny estetycznej">
+    <title>TheOne Clinic - Medycyna Estetyczna</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <img src="media/logo.jpg" alt="TheOne Clinic Logo" class="logo">
+                    <!-- <h1 class="clinic-name">TheOne Clinic</h1> -->
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="pages/onas.html" class="nav-link">O nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/efekty.html" class="nav-link">Efekty przed i po</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/depilacja.html" class="nav-link">Depilacja Laserowa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Laseroterapia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="pages/ipixel.html" class="dropdown-link">iPixel - Laser Frakcyjny</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="pages/dvl.html" class="dropdown-link">DVL - Zmiany Naczyniowe</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="pages/clearskin.html" class="dropdown-link">Clear Skin - Trądzik</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/dermapen.html" class="nav-link">Dermapen 4.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/endermologia.html" class="nav-link">Endermologia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Zabiegi Pielęgnacyjne
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="pages/linder.html" class="dropdown-link">Linder Health</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="pages/image.html" class="dropdown-link">Image Skincare</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/badanie.html" class="nav-link">Badanie Skóry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/faq.html" class="nav-link">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="media/opening.webm" type="video/webm">
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title animate__animated animate__fadeInDown">
+                    Witaj w TheOne Clinic
+                </h2>
+                <p class="hero-subtitle animate__animated animate__fadeInUp">
+                    Odmładzamy skórę bez skalpela - laser, kwasy, Dermapen i zabiegi premium w Osielsku.
+                </p>
+
+                <!-- Contact Info -->
+                <div class="contact-info animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+48790227627">+48 790 227 627</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Marsowa+7+Osielsko" target="_blank">Marsowa 7, Osielsko</a>
+                    </div>
+                </div>
+
+                <!-- Booksy Button -->
+                <div class="animate__animated animate__fadeIn animate__delay-1s" style="margin-top: 20px;">
+                    <a href="https://theonebeautyclinic.booksy.com/a/" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się przez Booksy
+                    </a>
+                </div>
+
+                <!-- Promotions Button -->
+                <div class="animate__animated animate__fadeIn animate__delay-1s" style="margin-top: 15px;">
+                    <button id="openPromotionsBtn" class="btn-secondary">
+                        <i class="fas fa-tags"></i> Aktualne promocje
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotions Modal -->
+    <div id="promotionsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-tags"></i> Aktualne promocje</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body" id="promotionsContainer">
+                <!-- Przykładowa promocja -->
+                <div class="promotion-item">
+                    <div class="promotion-image">
+                        <img src="media/promotions/promo1.jpg" alt="Promocja" onerror="this.src='media/logo.jpg'">
+                    </div>
+                    <div class="promotion-content">
+                        <h3 class="promotion-title">Depilacja laserowa -20%</h3>
+                        <p class="promotion-description">
+                            Skorzystaj z wyjątkowej oferty na depilację laserową! Rabat 20% na wszystkie obszary. 
+                            Oferta ograniczona czasowo - nie przegap okazji!
+                        </p>
+                        <p class="promotion-date">
+                            <i class="far fa-calendar"></i> Dodano: 1 grudnia 2025
+                        </p>
+                    </div>
+                </div>
+
+                <div class="promotion-item">
+                    <div class="promotion-image">
+                        <img src="media/promotions/promo2.jpg" alt="Promocja" onerror="this.src='media/logo.jpg'">
+                    </div>
+                    <div class="promotion-content">
+                        <h3 class="promotion-title">Pakiet Dermapen + Pielęgnacja</h3>
+                        <p class="promotion-description">
+                            Zabieg Dermapen 4.0 w zestawie z zabiegiem pielęgnacyjnym Image Skincare. 
+                            Kompleksowa odnowa skóry w promocyjnej cenie!
+                        </p>
+                        <p class="promotion-date">
+                            <i class="far fa-calendar"></i> Dodano: 28 listopada 2025
+                        </p>
+                    </div>
+                </div>
+
+                <div class="promotion-item">
+                    <div class="promotion-image">
+                        <img src="media/promotions/promo3.jpg" alt="Promocja" onerror="this.src='media/logo.jpg'">
+                    </div>
+                    <div class="promotion-content">
+                        <h3 class="promotion-title">Endermologia - Pakiet 10 zabiegów</h3>
+                        <p class="promotion-description">
+                            Kup pakiet 10 zabiegów endermologii i otrzymaj 11-ty gratis! 
+                            Idealne rozwiązanie na cellulit i ujędrnienie skóry.
+                        </p>
+                        <p class="promotion-date">
+                            <i class="far fa-calendar"></i> Dodano: 25 listopada 2025
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 TheOne Clinic. Wszelkie prawa zastrzeżone.</p>
+                    <p>Profesjonalne zabiegi medycyny estetycznej</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/theone_beauty_clinic?igsh=YXlwZ2hiZDVvdGF3&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/17k7A13fA8/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

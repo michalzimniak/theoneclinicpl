@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Efekty przed i po - TheOne Clinic">
+    <title>Efekty przed i po - TheOne Clinic</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <a href="../index.html">
+                        <img src="../media/logo.jpg" alt="TheOne Clinic Logo" class="logo">
+                    </a>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Strona Główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="onas.html" class="nav-link">O nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="efekty.html" class="nav-link active">Efekty przed i po</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="depilacja.html" class="nav-link">Depilacja Laserowa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Laseroterapia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="ipixel.html" class="dropdown-link">iPixel - Laser Frakcyjny</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="dvl.html" class="dropdown-link">DVL - Zmiany Naczyniowe</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="clearskin.html" class="dropdown-link">Clear Skin - Trądzik</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dermapen.html" class="nav-link">Dermapen 4.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="endermologia.html" class="nav-link">Endermologia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Zabiegi Pielęgnacyjne
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="linder.html" class="dropdown-link">Linder Health</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="image.html" class="dropdown-link">Image Skincare</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="badanie.html" class="nav-link">Badanie Skóry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="faq.html" class="nav-link">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Page -->
+    <section class="service-page">
+        <div class="container">
+            <a href="../index.html" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="service-header animate__animated animate__fadeInDown">
+                <h1>Efekty przed i po</h1>
+                <div class="service-divider"></div>
+                <p class="service-intro">
+                    Zobacz spektakularne rezultaty naszych zabiegów. Każde zdjęcie to prawdziwa transformacja 
+                    i dowód na skuteczność naszych metod.
+                </p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeIn">
+                <!-- Filter Buttons -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Wszystkie</button>
+                    <button class="filter-btn" data-filter="depilacja">Depilacja</button>
+                    <button class="filter-btn" data-filter="ipixel">iPixel</button>
+                    <button class="filter-btn" data-filter="dvl">DVL</button>
+                    <button class="filter-btn" data-filter="clearskin">Clear Skin</button>
+                    <button class="filter-btn" data-filter="dermapen">Dermapen</button>
+                    <button class="filter-btn" data-filter="endermologia">Endermologia</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="before-after-gallery">
+                    <!-- Example Gallery Item - Depilacja -->
+                    <div class="gallery-item" data-category="depilacja">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/depilacja-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/depilacja-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Depilacja Laserowa - Nogi</h4>
+                            <p>Po 6 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - iPixel -->
+                    <div class="gallery-item" data-category="ipixel">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/ipixel-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/ipixel-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Laser Frakcyjny iPixel - Blizny</h4>
+                            <p>Po 4 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - DVL -->
+                    <div class="gallery-item" data-category="dvl">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/dvl-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/dvl-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>DVL - Zmiany Naczyniowe</h4>
+                            <p>Po 3 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Clear Skin -->
+                    <div class="gallery-item" data-category="clearskin">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/clearskin-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/clearskin-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Clear Skin - Trądzik</h4>
+                            <p>Po 5 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Dermapen -->
+                    <div class="gallery-item" data-category="dermapen">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/dermapen-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/dermapen-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Dermapen 4.0 - Blizny potrądzikowe</h4>
+                            <p>Po 6 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Endermologia -->
+                    <div class="gallery-item" data-category="endermologia">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="../media/gallery/endermologia-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="../media/gallery/endermologia-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Endermologia - Cellulit</h4>
+                            <p>Po 10 zabiegach</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-note">
+                    <p><i class="fas fa-info-circle"></i> 
+                        Rezultaty mogą różnić się w zależności od indywidualnych predyspozycji. 
+                        Przedstawione zdjęcia są prawdziwymi efektami naszych klientów po zgodzie na ich publikację.
+                    </p>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Chcesz osiągnąć podobne efekty?</h3>
+                    <p>Umów się na bezpłatną konsultację i poznaj swoje możliwości.</p>
+                    <a href="https://theonebeautyclinic.booksy.com/a/" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się przez Booksy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 TheOne Clinic. Wszelkie prawa zastrzeżone.</p>
+                    <p>Profesjonalne zabiegi medycyny estetycznej</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/theone_beauty_clinic?igsh=YXlwZ2hiZDVvdGF3&utm_source=qr" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/17k7A13fA8/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        // Gallery Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            item.classList.add('animate__animated', 'animate__fadeIn');
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>TheOne Clinic</title>
+    <link>http://example.local</link>
+    <description></description>
+    <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+    <language>pl</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>http://example.local</wp:base_site_url>
+    <wp:base_blog_url>http://example.local</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login><![CDATA[admin]]></wp:author_login>
+        <wp:author_email><![CDATA[admin@example.com]]></wp:author_email>
+        <wp:author_display_name><![CDATA[admin]]></wp:author_display_name>
+        <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+        <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title><![CDATA[Strona główna]]></title>
+        <link>http://example.local/home/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=101</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="hero-section" id="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="/wp-content/themes/theone-clinic/media/opening.webm" type="video/webm">
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title animate__animated animate__fadeInDown">
+                    Witaj w TheOne Clinic
+                </h2>
+                <p class="hero-subtitle animate__animated animate__fadeInUp">
+                    Odmładzamy skórę bez skalpela - laser, kwasy, Dermapen i zabiegi premium w Osielsku.
+                </p>
+
+                <!-- Contact Info -->
+                <div class="contact-info animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="[theone_phone_href]">[theone_phone_display]</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="[theone_maps_url]" target="_blank">[theone_address_text]</a>
+                    </div>
+                </div>
+
+                <!-- Booksy Button -->
+                <div class="animate__animated animate__fadeIn animate__delay-1s" style="margin-top: 20px;">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się przez Booksy
+                    </a>
+                </div>
+
+                <!-- Promotions Button -->
+                <div class="animate__animated animate__fadeIn animate__delay-1s" style="margin-top: 15px;">
+                    [theone_promotions_button]
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>101</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Badanie Skóry]]></title>
+        <link>http://example.local/badanie/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=102</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-badanie">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Komputerowe Badanie Skóry</h1>
+                <p class="page-subtitle">Analiza Komputerowa Twarzy</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Analiza komputerowa twarzy w kosmetologii to innowacyjna metoda oceny stanu skóry, która pozwala 
+                    na dokładne zbadanie jej kondycji przy użyciu zaawansowanych technologii obrazowania. Urządzenie 
+                    analizuje takie aspekty jak nawilżenie, elastyczność, zmarszczki, przebarwienia, rozszerzone pory 
+                    czy oznaki starzenia, dzięki czemu można precyzyjnie dopasować zabiegi i pielęgnację do 
+                    indywidualnych potrzeb skóry.
+                </p>
+
+                <p class="service-description">
+                    To doskonały sposób na monitorowanie postępów terapii kosmetologicznych oraz wczesne wykrywanie 
+                    problemów skórnych. Profesjonalna analiza twarzy to pierwszy krok do zdrowej i promiennej cery.
+                </p>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i> Badanie jest bezbolesne i trwa około 30 minut. 
+                    Otrzymasz szczegółowy raport z analizą Twojej skóry oraz indywidualny Beauty Plan.
+                </div>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Komputerowe badanie skóry z Beauty Planem</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na badanie
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>102</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[badanie]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Clear Skin - Trądzik]]></title>
+        <link>http://example.local/clearskin/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=103</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-clearskin">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Clear Skin</h1>
+                <p class="page-subtitle">Laseroterapia Alma Harmony XL PRO</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Działa na głębokie warstwy skóry, eliminując bakterie odpowiedzialne za zmiany trądzikowe, 
+                    reguluje pracę gruczołów łojowych. Powoduje poprawę napięcia i gęstości skóry poprzez 
+                    namnażanie kolagenu, spłycenie zmarszczek i wyrównanie kolorytu. Intensywnie odmładza skórę, 
+                    redukuje zmarszczki.
+                </p>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">900 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Szyja</span>
+                        <span class="pricing-price">700 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Czoło</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Policzki</span>
+                        <span class="pricing-price">700 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Plecy (całe)</span>
+                        <span class="pricing-price">1000 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>103</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[clearskin]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Depilacja Laserowa]]></title>
+        <link>http://example.local/depilacja/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=104</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-depilacja">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Depilacja Laserowa Primelase</h1>
+                <p class="page-subtitle">Cocon Medical</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Laser do depilacji Primelase od Cocon Medical to nowoczesne urządzenie wykorzystujące technologię 
+                    diodową, które skutecznie usuwa owłosienie poprzez wykorzystanie energii świetlnej. Dzięki 
+                    zaawansowanej technologii chłodzenia, zabieg jest bezpieczny i komfortowy, minimalizując dyskomfort.
+                </p>
+
+                <p class="service-description">
+                    Laser Primelase charakteryzuje się szybkim czasem pracy i wysoką skutecznością, a także jest 
+                    odpowiedni do wszystkich rodzajów skóry, w tym ciemniejszych typów skóry. Laser Primelase oferuje 
+                    moc do <strong>4800W</strong>, co pozwala na szybkie i skuteczne usuwanie owłosienia. Dzięki wysokiej 
+                    mocy urządzenie może działać na głębsze warstwy skóry, co zwiększa efektywność zabiegów.
+                </p>
+
+                <div class="alert alert-info">
+                    <strong><i class="fas fa-info-circle"></i> Zalecana ilość zabiegów:</strong> 6 sesji
+                </div>
+
+                <!-- Wskazania -->
+                <h2 class="section-title">
+                    <i class="fas fa-check-circle"></i> Wskazania
+                </h2>
+                <ul class="info-list">
+                    <li>Niepożądane owłosienie</li>
+                    <li>Wrastające włoski</li>
+                    <li>Zapalenie mieszków włosowych</li>
+                </ul>
+
+                <!-- Przeciwwskazania -->
+                <h2 class="section-title">
+                    <i class="fas fa-exclamation-triangle"></i> Przeciwwskazania
+                </h2>
+                <ul class="info-list">
+                    <li>Świeżo opalona skóra do 2 tygodni</li>
+                    <li>Substancje fotouczulające: zioła (dziurawiec, nagietek, skrzyp) oraz leki (antybiotyki, roaccutane, sterydy)</li>
+                    <li>Ciąża</li>
+                    <li>Nowotwory</li>
+                    <li>Terapie retinoidami (miejscowo i ogólnie)</li>
+                    <li>Fotodermatozy</li>
+                    <li>Epilepsja</li>
+                    <li>Obniżona odporność organizmu</li>
+                    <li>Choroby zakaźne</li>
+                    <li>Stany zapalne skóry</li>
+                    <li>Choroby tkanki łącznej np. kolagenozy</li>
+                    <li>Obszar objęty tatuażem</li>
+                </ul>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <h4 style="color: var(--primary-gold); margin-bottom: 20px;">Twarz</h4>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Monobrew</span>
+                        <span class="pricing-price">100 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Górna warga</span>
+                        <span class="pricing-price">200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Broda</span>
+                        <span class="pricing-price">200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Baki</span>
+                        <span class="pricing-price">200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Cała twarz</span>
+                        <span class="pricing-price">500 zł</span>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h4 style="color: var(--primary-gold); margin-bottom: 20px;">Ręce</h4>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Pachy</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Ramiona</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Przedramiona</span>
+                        <span class="pricing-price">300 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Palce dłoni</span>
+                        <span class="pricing-price">100 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Całe ręce <small>(gratis palce)</small></span>
+                        <span class="pricing-price">450 zł</span>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h4 style="color: var(--primary-gold); margin-bottom: 20px;">Nogi</h4>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Łydki z kolanami</span>
+                        <span class="pricing-price">350 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Uda</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Kolana</span>
+                        <span class="pricing-price">150 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Całe nogi</span>
+                        <span class="pricing-price">600 zł</span>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h4 style="color: var(--primary-gold); margin-bottom: 20px;">Bikini</h4>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Bikini płytkie (pachwiny, wzgórek)</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Bikini pełne (pachwiny, wzgórek, wargi)</span>
+                        <span class="pricing-price">300 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Bikini brazylijskie (pachwiny, wzgórek, wargi, szpara pośladkowa)</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h4 style="color: var(--primary-gold); margin-bottom: 20px;">Pozostałe</h4>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Sutki</span>
+                        <span class="pricing-price">200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Kresa biała</span>
+                        <span class="pricing-price">150 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Szpara pośladkowa</span>
+                        <span class="pricing-price">150 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Pośladki</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Klatka piersiowa</span>
+                        <span class="pricing-price">500 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Brzuch</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Kark</span>
+                        <span class="pricing-price">200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Głowa</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Plecy</span>
+                        <span class="pricing-price">500 zł</span>
+                    </div>
+                </div>
+
+                <!-- Pakiety -->
+                <h2 class="section-title">
+                    <i class="fas fa-gift"></i> Pakiety Promocyjne
+                </h2>
+                <div class="pricing-table">
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Bikini głębokie + Pachy</span>
+                        <span class="pricing-price">550 zł <span class="discount-badge">15% OFF</span></span>
+                    </div>
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Łydki + Pachy + Bikini brazylijskie</span>
+                        <span class="pricing-price">750 zł <span class="discount-badge">25% OFF</span></span>
+                    </div>
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Pakiet 3 zabiegów na jedną wybraną partię</span>
+                        <span class="pricing-price">-20%</span>
+                    </div>
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Pakiet 6 zabiegów na jedną wybraną partię</span>
+                        <span class="pricing-price">-30%</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>104</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[depilacja]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Dermapen 4.0]]></title>
+        <link>http://example.local/dermapen/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=105</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-dermapen">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Dermapen 4.0</h1>
+                <p class="page-subtitle">Mezoterapia Mikroigłowa</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Dermapen 4.0 to nowoczesna metoda mikronakłuwania skóry, która wykorzystuje zaawansowaną 
+                    technologię do stymulacji naturalnych procesów regeneracyjnych. Zabieg polega na precyzyjnym 
+                    wprowadzeniu mikroigieł w skórę, co powoduje tworzenie mikrouszkodzeń, pobudzających produkcję 
+                    kolagenu i elastyny. Dzięki temu skóra staje się gładsza, jędrniejsza i młodsza.
+                </p>
+
+                <!-- Korzyści -->
+                <h2 class="section-title">
+                    <i class="fas fa-heart"></i> Korzyści zabiegu
+                </h2>
+                <ul class="info-list">
+                    <li><strong>Redukcja zmarszczek</strong> – wygładzenie skóry i spłycenie drobnych zmarszczek</li>
+                    <li><strong>Poprawa struktury skóry</strong> – zwiększenie elastyczności i napięcia skóry</li>
+                    <li><strong>Zmniejszenie blizn i rozstępów</strong> – efektywna terapia w leczeniu blizn pooperacyjnych i potrądzikowych oraz rozstępów</li>
+                    <li><strong>Redukcja porów</strong> – zmniejszenie widoczności porów skóry</li>
+                    <li><strong>Wyrównanie kolorytu</strong> – poprawa wyglądu skóry, redukcja przebarwień</li>
+                </ul>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i> Zabieg jest bezpieczny, a dzięki zastosowaniu technologii 
+                    Dermapen 4.0, który automatycznie reguluje głębokość i częstotliwość nakłuwania, jest także 
+                    bardzo precyzyjny i komfortowy.
+                </div>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">700 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja</span>
+                        <span class="pricing-price">800 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja + Dekolt</span>
+                        <span class="pricing-price">900 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>105</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[dermapen]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[DVL - Zmiany Naczyniowe]]></title>
+        <link>http://example.local/dvl/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=106</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-dvl">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">DVL</h1>
+                <p class="page-subtitle">Laseroterapia Alma Harmony XL PRO</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Terapia umożliwiająca leczenie zmian naczyniowych, pigmentacyjnych, plam soczewicowatych, 
+                    leczenie rumienia i trądziku różowatego. Podczas zabiegu następuje obkurczenie włókien 
+                    kolagenowych, co skutkuje poprawą elastyczności i gładkości skóry.
+                </p>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">700 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Dekolt</span>
+                        <span class="pricing-price">1000 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Dekolt</span>
+                        <span class="pricing-price">600 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Policzki</span>
+                        <span class="pricing-price">500 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Skrzydełka nosa</span>
+                        <span class="pricing-price">350 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Pojedyncza zmiana "naczynko"</span>
+                        <span class="pricing-price">150 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>106</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[dvl]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Efekty przed i po]]></title>
+        <link>http://example.local/efekty/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=107</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="service-header animate__animated animate__fadeInDown">
+                <h1>Efekty przed i po</h1>
+                <div class="service-divider"></div>
+                <p class="service-intro">
+                    Zobacz spektakularne rezultaty naszych zabiegów. Każde zdjęcie to prawdziwa transformacja 
+                    i dowód na skuteczność naszych metod.
+                </p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeIn">
+                <!-- Filter Buttons -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Wszystkie</button>
+                    <button class="filter-btn" data-filter="depilacja">Depilacja</button>
+                    <button class="filter-btn" data-filter="ipixel">iPixel</button>
+                    <button class="filter-btn" data-filter="dvl">DVL</button>
+                    <button class="filter-btn" data-filter="clearskin">Clear Skin</button>
+                    <button class="filter-btn" data-filter="dermapen">Dermapen</button>
+                    <button class="filter-btn" data-filter="endermologia">Endermologia</button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="before-after-gallery">
+                    <!-- Example Gallery Item - Depilacja -->
+                    <div class="gallery-item" data-category="depilacja">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/depilacja-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/depilacja-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Depilacja Laserowa - Nogi</h4>
+                            <p>Po 6 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - iPixel -->
+                    <div class="gallery-item" data-category="ipixel">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/ipixel-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/ipixel-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Laser Frakcyjny iPixel - Blizny</h4>
+                            <p>Po 4 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - DVL -->
+                    <div class="gallery-item" data-category="dvl">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/dvl-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/dvl-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>DVL - Zmiany Naczyniowe</h4>
+                            <p>Po 3 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Clear Skin -->
+                    <div class="gallery-item" data-category="clearskin">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/clearskin-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/clearskin-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Clear Skin - Trądzik</h4>
+                            <p>Po 5 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Dermapen -->
+                    <div class="gallery-item" data-category="dermapen">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/dermapen-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/dermapen-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Dermapen 4.0 - Blizny potrądzikowe</h4>
+                            <p>Po 6 zabiegach</p>
+                        </div>
+                    </div>
+
+                    <!-- Example Gallery Item - Endermologia -->
+                    <div class="gallery-item" data-category="endermologia">
+                        <div class="before-after-container">
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/endermologia-before-1.jpg" alt="Przed zabiegiem" class="image-placeholder">
+                                <span class="image-label">PRZED</span>
+                            </div>
+                            <div class="before-after-image">
+                                <img src="/wp-content/themes/theone-clinic/media/gallery/endermologia-after-1.jpg" alt="Po zabiegu" class="image-placeholder">
+                                <span class="image-label">PO</span>
+                            </div>
+                        </div>
+                        <div class="gallery-description">
+                            <h4>Endermologia - Cellulit</h4>
+                            <p>Po 10 zabiegach</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-note">
+                    <p><i class="fas fa-info-circle"></i> 
+                        Rezultaty mogą różnić się w zależności od indywidualnych predyspozycji. 
+                        Przedstawione zdjęcia są prawdziwymi efektami naszych klientów po zgodzie na ich publikację.
+                    </p>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Chcesz osiągnąć podobne efekty?</h3>
+                    <p>Umów się na bezpłatną konsultację i poznaj swoje możliwości.</p>
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się przez Booksy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>107</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[efekty]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Endermologia]]></title>
+        <link>http://example.local/endermologia/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=108</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-endermologia">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Endermologia LPG Alliance</h1>
+                <p class="page-subtitle">Masaż Podciśnieniowy</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Endermologia LPG Alliance to zaawansowana metoda masażu podciśnieniowego, która działa na skórę 
+                    i tkankę podskórną, wykorzystując specjalistyczną głowicę z dwiema rolkami, które delikatnie 
+                    masują skórę, tworząc efekt podciśnienia. Dzięki tej technologii, zabieg stymuluje krążenie 
+                    krwi i limfy, poprawia metabolizm komórkowy oraz pobudza produkcję kolagenu i elastyny.
+                </p>
+
+                <!-- Korzyści -->
+                <h2 class="section-title">
+                    <i class="fas fa-heart"></i> Korzyści zabiegu Endermologii LPG Alliance
+                </h2>
+                <ul class="info-list">
+                    <li><strong>Redukcja cellulitu</strong> – poprawa tekstury skóry, wygładzenie nierówności i redukcja cellulitu</li>
+                    <li><strong>Modelowanie sylwetki</strong> – wspomaga procesy odchudzania, redukując lokalne zgromadzenie tłuszczu</li>
+                    <li><strong>Poprawa elastyczności skóry</strong> – ujędrnia i napina skórę, przywracając jej młodszy wygląd</li>
+                    <li><strong>Detoksykacja organizmu</strong> – pobudzanie układu limfatycznego do usuwania toksyn</li>
+                    <li><strong>Redukcja bólu mięśniowego i stawowego</strong> – pomaga w regeneracji po wysiłku fizycznym i zmniejsza napięcie mięśniowe</li>
+                </ul>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i> Endermologia LPG Alliance jest bezpieczna i skuteczna, 
+                    a efekty są widoczne już po kilku sesjach. Zabieg jest bezbolesny i bardzo relaksujący, 
+                    idealny do stosowania w seriach, aby uzyskać najlepsze rezultaty.
+                </div>
+
+                <!-- Cennik Endermologia -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik - Endermologia Ciało
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Całe ciało (40 min)</span>
+                        <span class="pricing-price">180 zł</span>
+                    </div>
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Całe ciało - PAKIET 10 zabiegów (strój gratis)</span>
+                        <span class="pricing-price">1600 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Strój do endermologii (wielorazowy)</span>
+                        <span class="pricing-price">100 zł</span>
+                    </div>
+                </div>
+
+                <!-- Endermolift -->
+                <div class="page-header animate__animated animate__fadeInDown mt-5">
+                    <h2 class="page-title" style="font-size: 2.5rem;">Endermolift Alliance</h2>
+                    <p class="page-subtitle">Terapia dla Twarzy</p>
+                </div>
+
+                <p class="service-description">
+                    Endermolift Alliance to terapia, która skupia się na głębokiej regeneracji skóry twarzy. 
+                    Wykorzystując zaawansowaną technologię masażu podciśnieniowego, endermolift stymuluje produkcję 
+                    kolagenu i elastyny, poprawiając jędrność, gęstość i elastyczność skóry twarzy. Zabieg działa 
+                    na poziomie komórkowym, zapewniając efekt liftingu i wygładzenia zmarszczek.
+                </p>
+
+                <!-- Korzyści Endermolift -->
+                <h2 class="section-title">
+                    <i class="fas fa-heart"></i> Korzyści zabiegu Endermolift Alliance
+                </h2>
+                <ul class="info-list">
+                    <li><strong>Lifting skóry</strong> – poprawia napięcie skóry, przywracając jej młodszy wygląd</li>
+                    <li><strong>Redukcja zmarszczek</strong> – wygładza drobne zmarszczki i spłyca głębsze bruzdy</li>
+                    <li><strong>Poprawa kolorytu skóry</strong> – wyrównuje koloryt, redukując przebarwienia i oznaki zmęczenia</li>
+                    <li><strong>Zwiększenie elastyczności</strong> – stymuluje regenerację komórkową, poprawiając jędrność i elastyczność skóry</li>
+                    <li><strong>Detoksykacja</strong> – pobudza mikrokrążenie i limfatyczny drenaż, przyspieszając usuwanie toksyn</li>
+                </ul>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i> Endermolift Alliance jest idealnym rozwiązaniem dla osób 
+                    szukających nieinwazyjnej metody poprawy wyglądu skóry twarzy, bez potrzeby sięgania po 
+                    zabiegi chirurgiczne. Jest to bezbolesna i relaksująca procedura, która daje szybkie i 
+                    długotrwałe efekty odmłodzenia.
+                </div>
+
+                <!-- Cennik Endermolift -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik - Endermolift Twarz
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Zabieg na twarz</span>
+                        <span class="pricing-price">250 zł</span>
+                    </div>
+                    <div class="pricing-row package-highlight">
+                        <span class="pricing-item">Zabieg na twarz - PAKIET 5 zabiegów</span>
+                        <span class="pricing-price">970 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>108</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[endermologia]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[FAQ]]></title>
+        <link>http://example.local/faq/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=109</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="service-header animate__animated animate__fadeInDown">
+                <h1>Najczęściej zadawane pytania</h1>
+                <div class="service-divider"></div>
+                <p class="service-intro">
+                    Znajdź odpowiedzi na najważniejsze pytania dotyczące naszych zabiegów. 
+                    Jeśli nie znajdziesz odpowiedzi na swoje pytanie, skontaktuj się z nami!
+                </p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeIn">
+                <!-- FAQ Categories -->
+                <div class="faq-categories">
+                    <button class="faq-category-btn active" data-category="general">Ogólne</button>
+                    <button class="faq-category-btn" data-category="treatments">Zabiegi</button>
+                    <button class="faq-category-btn" data-category="preparation">Przygotowanie</button>
+                    <button class="faq-category-btn" data-category="aftercare">Pielęgnacja</button>
+                </div>
+
+                <!-- General Questions -->
+                <div class="faq-section" data-category="general">
+                    <h2><i class="fas fa-question-circle"></i> Pytania ogólne</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy zabiegi są bezpieczne?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, wszystkie oferowane przez nas zabiegi są w pełni bezpieczne. Wykorzystujemy 
+                                certyfikowany sprzęt najnowszej generacji, a zabiegi wykonują wykwalifikowani specjaliści 
+                                z wieloletnim doświadczeniem. Przed każdym zabiegiem przeprowadzamy dokładną konsultację 
+                                i badanie, aby wykluczyć przeciwwskazania.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak umówić się na wizytę?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Najłatwiej umówić się przez platformę Booksy - wystarczy kliknąć przycisk "Umów się przez Booksy" 
+                                na naszej stronie. Możesz również zadzwonić do nas bezpośrednio. Przed pierwszym zabiegiem 
+                                zalecamy umówienie bezpłatnej konsultacji.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy mogę odwołać wizytę?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, prosimy jednak o odwołanie wizyty minimum 24 godziny wcześniej. Możesz to zrobić przez 
+                                Booksy lub telefonicznie. Dzięki temu inni klienci będą mogli skorzystać z wolnego terminu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy oferujecie konsultacje?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Tak, oferujemy bezpłatne konsultacje, podczas których omówimy Twoje potrzeby, 
+                                przeprowadzimy badanie skóry i zaproponujemy optymalny plan zabiegowy dostosowany 
+                                do Twoich oczekiwań i możliwości.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Questions -->
+                <div class="faq-section" data-category="treatments" style="display: none;">
+                    <h2><i class="fas fa-spa"></i> Pytania o zabiegi</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy zabiegi bolą?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Większość naszych zabiegów jest mało inwazyjnych i dobrze tolerowanych. Depilacja laserowa 
+                                może powodować lekkie dyskomfort porównywalny do szczypania. Zabiegi laserem frakcyjnym czy 
+                                Dermapenem wykonujemy z znieczuleniem miejscowym (krem). Endermologia i zabiegi pielęgnacyjne 
+                                są całkowicie bezbolesne i relaksujące.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile trwa jeden zabieg?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Czas zabiegu zależy od jego rodzaju i obszaru:
+                            </p>
+                            <ul>
+                                <li>Depilacja laserowa: 15-60 minut w zależności od obszaru</li>
+                                <li>Laser frakcyjny iPixel: 30-60 minut</li>
+                                <li>DVL/Clear Skin: 20-45 minut</li>
+                                <li>Dermapen 4.0: 60-90 minut (z znieczuleniem)</li>
+                                <li>Endermologia: 35-50 minut</li>
+                                <li>Zabiegi pielęgnacyjne: 60-90 minut</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile zabiegów potrzebuję, aby zobaczyć efekty?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Liczba zabiegów zależy od rodzaju terapii i indywidualnych predyspozycji:
+                            </p>
+                            <ul>
+                                <li>Depilacja: 6-8 zabiegów dla optymalnych rezultatów</li>
+                                <li>Laser frakcyjny: 3-5 zabiegów</li>
+                                <li>DVL: 2-4 zabiegi</li>
+                                <li>Clear Skin: 4-6 zabiegów</li>
+                                <li>Dermapen: 4-6 zabiegów</li>
+                                <li>Endermologia: seria 10-15 zabiegów, 2-3 razy w tygodniu</li>
+                            </ul>
+                            <p>
+                                Pierwsze efekty są często widoczne już po pierwszym zabiegu, ale pełne rezultaty 
+                                osiągamy po ukończeniu zalecanej serii.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jakie są przerwy między zabiegami?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Odstępy między zabiegami są dostosowane do rodzaju terapii:
+                            </p>
+                            <ul>
+                                <li>Depilacja: co 4-8 tygodni (w zależności od okolicy)</li>
+                                <li>Laser frakcyjny: co 4-6 tygodni</li>
+                                <li>DVL/Clear Skin: co 3-4 tygodnie</li>
+                                <li>Dermapen: co 4-6 tygodni</li>
+                                <li>Endermologia: 2-3 razy w tygodniu</li>
+                                <li>Zabiegi pielęgnacyjne: co 2-4 tygodnie</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preparation Questions -->
+                <div class="faq-section" data-category="preparation" style="display: none;">
+                    <h2><i class="fas fa-clipboard-list"></i> Przygotowanie do zabiegu</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak przygotować się do depilacji laserowej?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Przed zabiegiem depilacji:
+                            </p>
+                            <ul>
+                                <li>Ogól włosy na dzień przed zabiegiem (nie depiluj woskiem/cukrem!)</li>
+                                <li>Unikaj opalania przez 2 tygodnie przed zabiegiem</li>
+                                <li>Nie stosuj kremów samoopalających</li>
+                                <li>Skóra powinna być czysta, bez kosmetyków i dezodorantów</li>
+                                <li>Poinformuj nas o przyjmowanych lekach</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak przygotować się do zabiegów laserowych (iPixel, DVL, Clear Skin)?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Przygotowanie do zabiegów laserowych:
+                            </p>
+                            <ul>
+                                <li>Unikaj opalania przez 4 tygodnie przed zabiegiem</li>
+                                <li>Nie stosuj retinoidów przez tydzień przed zabiegiem</li>
+                                <li>Skóra powinna być czysta, bez makijażu</li>
+                                <li>Poinformuj nas o wszystkich lekach i suplementach</li>
+                                <li>Wypij dużo wody dzień przed zabiegiem</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Czy są przeciwwskazania do zabiegów?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Ogólne przeciwwskazania obejmują:
+                            </p>
+                            <ul>
+                                <li>Ciąża i karmienie piersią (dla większości zabiegów)</li>
+                                <li>Aktywne infekcje skóry w miejscu zabiegu</li>
+                                <li>Choroby autoimmunologiczne (w zależności od zabiegu)</li>
+                                <li>Keloidoza</li>
+                                <li>Świeża opalenizna</li>
+                                <li>Hemofilia i zaburzenia krzepnięcia</li>
+                                <li>Przyjmowanie niektórych leków (np. Roaccutane)</li>
+                            </ul>
+                            <p>
+                                Podczas konsultacji dokładnie omówimy wszystkie przeciwwskazania dla konkretnego zabiegu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aftercare Questions -->
+                <div class="faq-section" data-category="aftercare" style="display: none;">
+                    <h2><i class="fas fa-heart"></i> Pielęgnacja po zabiegu</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Ile trwa rekonwalescencja?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Czas rekonwalescencji zależy od rodzaju zabiegu:
+                            </p>
+                            <ul>
+                                <li><strong>Depilacja laserowa:</strong> Brak rekonwalescencji, możliwe lekkie zaczerwienienie przez kilka godzin</li>
+                                <li><strong>Laser frakcyjny iPixel:</strong> 3-5 dni złuszczania skóry, 7-10 dni pełnego gojenia</li>
+                                <li><strong>DVL/Clear Skin:</strong> 1-3 dni zaczerwienienia, możliwe delikatne strupki</li>
+                                <li><strong>Dermapen:</strong> 3-7 dni zaczerwienienia i złuszczania</li>
+                                <li><strong>Endermologia:</strong> Brak rekonwalescencji</li>
+                                <li><strong>Zabiegi pielęgnacyjne:</strong> Brak rekonwalescencji</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jak pielęgnować skórę po zabiegu?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Ogólne zasady pielęgnacji po zabiegach:
+                            </p>
+                            <ul>
+                                <li>Używaj delikatnych, łagodzących kosmetyków</li>
+                                <li>Stosuj kremy z wysokim filtrem SPF 50+ codziennie</li>
+                                <li>Unikaj bezpośredniego słońca przez 2-4 tygodnie</li>
+                                <li>Nie używaj peelingu mechanicznego przez tydzień</li>
+                                <li>Nawilżaj skórę regularnie</li>
+                                <li>Nie rozdrapuj strupków (jeśli wystąpią)</li>
+                                <li>Unikaj sauny, basenu i gorących kąpieli przez 3-7 dni</li>
+                            </ul>
+                            <p>
+                                Po każdym zabiegu otrzymasz szczegółowe zalecenia dotyczące pielęgnacji.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Co mogę robić po zabiegu?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Po większości zabiegów możesz normalnie funkcjonować. Zalecenia:
+                            </p>
+                            <ul>
+                                <li>Możesz wrócić do pracy (z wyjątkiem intensywnych zabiegów laserowych)</li>
+                                <li>Unikaj intensywnego wysiłku fizycznego przez 24-48h</li>
+                                <li>Możesz stosować makijaż (po 24h dla zabiegów laserowych)</li>
+                                <li>Unikaj gorących kąpieli, sauny, basenu przez 3-7 dni</li>
+                                <li>Nie opalaj się przez 2-4 tygodnie</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <i class="fas fa-chevron-down"></i>
+                            <h3>Jakie mogą wystąpić skutki uboczne?</h3>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Większość skutków ubocznych jest przejściowa i łagodna:
+                            </p>
+                            <ul>
+                                <li>Zaczerwienienie (kilka godzin - kilka dni)</li>
+                                <li>Delikatny obrzęk (1-2 dni)</li>
+                                <li>Złuszczanie skóry (3-7 dni dla zabiegów ablacyjnych)</li>
+                                <li>Przejściowe strupki (rzadko, 3-7 dni)</li>
+                                <li>Przejściowe przebarwienia (rzadko, ustępują z czasem)</li>
+                            </ul>
+                            <p>
+                                Jeśli zauważysz niepokojące objawy, skontaktuj się z nami natychmiast.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-contact">
+                    <h3>Nie znalazłeś odpowiedzi na swoje pytanie?</h3>
+                    <p>Skontaktuj się z nami - chętnie rozwiejemy wszystkie Twoje wątpliwości!</p>
+                    <div class="contact-options">
+                        <a href="tel:+48123456789" class="contact-option">
+                            <i class="fas fa-phone"></i> +48 123 456 789
+                        </a>
+                        <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                            <i class="fas fa-calendar-check"></i> Umów konsultację
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>109</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[faq]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Image Skincare]]></title>
+        <link>http://example.local/image/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=110</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-image">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Image Skincare</h1>
+                <p class="page-subtitle">Signature Facelift z 30% VIT C</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Zabieg IMAGE Signature Facelift z 30% witaminą C, enzymami owocowymi i kwasem hialuronowym to 
+                    luksusowy rytuał, który natychmiastowo poprawia wygląd skóry, nadając jej zdrowy blask. Wysoka 
+                    zawartość witaminy C działa przeciwstarzeniowo, rozjaśnia przebarwienia i stymuluje produkcję 
+                    kolagenu, dzięki czemu skóra staje się jędrniejsza i bardziej napięta.
+                </p>
+
+                <p class="service-description">
+                    Zabieg głęboko oczyszcza, nawilża oraz wygładza skórę, redukując widoczność zmarszczek i drobnych 
+                    linii. Idealny dla osób szukających szybkich efektów i poprawy kondycji skóry, bez długiego czasu 
+                    rekonwalescencji.
+                </p>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">300 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja</span>
+                        <span class="pricing-price">350 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja + Dekolt</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>110</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[image]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[iPixel - Laser Frakcyjny]]></title>
+        <link>http://example.local/ipixel/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=111</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-ipixel">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">iPixel</h1>
+                <p class="page-subtitle">Laseroterapia Alma Harmony XL PRO</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Nowoczesna metoda poprawy jakości skóry. Dzięki technologii frakcyjnego lasera, iPixel precyzyjnie 
+                    działa na skórę, stymulując jej regenerację i produkcję kolagenu. Zabieg jest skuteczny w walce 
+                    z bliznami, rozstępami, zmarszczkami oraz przebarwieniami.
+                </p>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">900 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja</span>
+                        <span class="pricing-price">1200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Szyja</span>
+                        <span class="pricing-price">600 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Dekolt</span>
+                        <span class="pricing-price">700 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Policzki</span>
+                        <span class="pricing-price">500 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Dłonie</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Rozstępy</span>
+                        <span class="pricing-price">od 200 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Blizny</span>
+                        <span class="pricing-price">od 150 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>111</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[ipixel]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[Linder Health]]></title>
+        <link>http://example.local/linder/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=112</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page service-page-linder">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="page-header animate__animated animate__fadeInDown">
+                <h1 class="page-title">Linder Health</h1>
+                <p class="page-subtitle">Peeling Chemiczny</p>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeInUp">
+                <p class="service-description">
+                    Peelingi firmy Linder Health to zaawansowane zabiegi, które skutecznie poprawiają kondycję skóry, 
+                    zapewniając jej gładkość i młodszy wygląd. Dzięki innowacyjnym formułom, bogatym w składniki aktywne, 
+                    peelingi rozświetlają skórę, redukują przebarwienia oraz spłycają zmarszczki.
+                </p>
+
+                <p class="service-description">
+                    Zabieg stymuluje odnowę komórkową, oczyszcza pory i poprawia teksturę skóry, pozostawiając ją 
+                    odświeżoną i pełną blasku. Dostosowane do indywidualnych potrzeb skóry, peelingi Linder Health 
+                    są bezpieczne i skuteczne, dając szybkie i zauważalne efekty.
+                </p>
+
+                <!-- Cennik -->
+                <h2 class="section-title">
+                    <i class="fas fa-tags"></i> Cennik
+                </h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz</span>
+                        <span class="pricing-price">300 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja</span>
+                        <span class="pricing-price">350 zł</span>
+                    </div>
+                    <div class="pricing-row">
+                        <span class="pricing-item">Twarz + Szyja + Dekolt</span>
+                        <span class="pricing-price">400 zł</span>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="text-center mt-5">
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się na zabieg
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>112</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[linder]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+
+    <item>
+        <title><![CDATA[O nas]]></title>
+        <link>http://example.local/onas/</link>
+        <pubDate>Tue, 13 Jan 2026 00:46:40 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://example.local/?page_id=113</guid>
+        <description></description>
+        <content:encoded><![CDATA[<section class="service-page">
+        <div class="container">
+            <a href="/" class="back-btn animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i> Powrót do strony głównej
+            </a>
+
+            <div class="service-header animate__animated animate__fadeInDown">
+                <h1>O nas</h1>
+                <div class="service-divider"></div>
+            </div>
+
+            <div class="service-content animate__animated animate__fadeIn">
+                <div class="about-intro">
+                    <h2>TheOne Clinic - Twoje miejsce piękna i zdrowia</h2>
+                    <p>
+                        Witamy w TheOne Clinic – nowoczesnej klinice medycyny estetycznej w Osielsku, 
+                        gdzie pasja do piękna spotyka się z najnowszymi technologiami. Naszym celem jest 
+                        pomóc Ci poczuć się pewnie we własnej skórze, oferując zabiegi najwyższej jakości 
+                        w komfortowych warunkach.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3><i class="fas fa-star"></i> Nasza Misja</h3>
+                    <p>
+                        Wierzymy, że każdy zasługuje na profesjonalną opiekę i indywidualne podejście. 
+                        Specjalizujemy się w zabiegach, które odmładzają skórę bez skalpela – laseroterapia, 
+                        Dermapen, kwasy, endermologia oraz zabiegi pielęgnacyjne premium.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3><i class="fas fa-medal"></i> Doświadczenie i Profesjonalizm</h3>
+                    <p>
+                        Nasz zespół to wykwalifikowani specjaliści z pasją do medycyny estetycznej. 
+                        Regularnie uczestniczymy w szkoleniach i konferencjach, aby zawsze oferować 
+                        najnowsze i najbezpieczniejsze rozwiązania dla naszych klientów.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3><i class="fas fa-microscope"></i> Nowoczesny Sprzęt</h3>
+                    <p>
+                        W TheOne Clinic korzystamy wyłącznie z certyfikowanego sprzętu najnowszej generacji:
+                    </p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> Laser Soprano Titanium do depilacji</li>
+                        <li><i class="fas fa-check-circle"></i> Laser frakcyjny iPixel</li>
+                        <li><i class="fas fa-check-circle"></i> Laser DVL do zmian naczyniowych</li>
+                        <li><i class="fas fa-check-circle"></i> Dermapen 4.0</li>
+                        <li><i class="fas fa-check-circle"></i> Endermologia LPG Alliance</li>
+                        <li><i class="fas fa-check-circle"></i> Komputerowe badanie skóry</li>
+                    </ul>
+                </div>
+
+                <div class="about-section">
+                    <h3><i class="fas fa-heart"></i> Indywidualne Podejście</h3>
+                    <p>
+                        Każdy klient jest dla nas wyjątkowy. Przed rozpoczęciem zabiegów przeprowadzamy 
+                        dokładną konsultację i badanie skóry, aby dobrać optymalny plan terapeutyczny 
+                        dostosowany do Twoich potrzeb i oczekiwań.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3><i class="fas fa-map-marker-alt"></i> Lokalizacja</h3>
+                    <p>
+                        Nasza klinika znajduje się w Osielsku, w pobliżu Bydgoszczy. Zapewniamy wygodny 
+                        dojazd i parking dla naszych klientów. Zapraszamy do umówienia wizyty przez Booksy 
+                        lub telefonicznie.
+                    </p>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Dołącz do grona zadowolonych klientów!</h3>
+                    <p>Umów się na bezpłatną konsultację i poznaj możliwości medycyny estetycznej.</p>
+                    <a href="[theone_booksy_url]" target="_blank" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Umów się przez Booksy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>113</wp:post_id>
+        <wp:post_date><![CDATA[2026-01-13 00:46:40]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-01-13 00:46:40]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[onas]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+</channel>
+</rss>
