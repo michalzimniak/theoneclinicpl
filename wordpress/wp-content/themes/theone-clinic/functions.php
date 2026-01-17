@@ -152,6 +152,76 @@ function theone_clinic_register_shortcodes(): void
 }
 add_action('init', 'theone_clinic_register_shortcodes');
 
+function theone_clinic_expand_link_placeholders(string $value): string
+{
+	if ($value === '') {
+		return $value;
+	}
+
+	// WordPress encodes '[' and ']' in URL fields (e.g. menus, Gutenberg URLs) which turns placeholders into %5B...%5D.
+	// Decode only these brackets (do not rawurldecode the whole string).
+	$decoded = preg_replace(['/%5B/i', '/%5D/i'], ['[', ']'], $value);
+	$decoded = is_string($decoded) ? $decoded : $value;
+
+	$replacements = [
+		'[theone_phone_href]' => theone_clinic_get_setting('theone_phone_href'),
+		'[theone_maps_url]' => theone_clinic_get_setting('theone_maps_url'),
+		'[theone_booksy_url]' => theone_clinic_get_setting('theone_booksy_url'),
+	];
+
+	$expanded = strtr($decoded, $replacements);
+
+	// Some editors store custom URLs as relative paths, e.g. '/[theone_maps_url]'. After expansion
+	// this becomes '/https://...' which the browser resolves to 'https://site.tld/https://...'.
+	$expanded = preg_replace('#^/(https?://)#i', '$1', $expanded);
+	$expanded = preg_replace('#^/(tel:)#i', '$1', $expanded);
+	$expanded = is_string($expanded) ? $expanded : (string) strtr($decoded, $replacements);
+
+	// If the site URL was already prefixed (e.g. 'https://site.tld/https://...'), unwrap it.
+	$expanded = preg_replace('#^https?://[^/]+/(https?://.+)$#i', '$1', $expanded);
+	$expanded = preg_replace('#^https?://[^/]+/(tel:.+)$#i', '$1', $expanded);
+	$expanded = is_string($expanded) ? $expanded : (string) $expanded;
+
+	return $expanded;
+}
+
+function theone_clinic_expand_placeholders_in_html(string $html): string
+{
+	return theone_clinic_expand_link_placeholders($html);
+}
+
+function theone_clinic_fix_menu_placeholder_urls($menu_item)
+{
+	if (is_object($menu_item) && isset($menu_item->url) && is_string($menu_item->url)) {
+		$menu_item->url = theone_clinic_expand_link_placeholders($menu_item->url);
+	}
+
+	return $menu_item;
+}
+add_filter('wp_setup_nav_menu_item', 'theone_clinic_fix_menu_placeholder_urls');
+
+function theone_clinic_fix_menu_placeholder_link_atts(array $atts, $item): array
+{
+	if (isset($atts['href']) && is_string($atts['href'])) {
+		$atts['href'] = theone_clinic_expand_link_placeholders($atts['href']);
+	}
+
+	return $atts;
+}
+add_filter('nav_menu_link_attributes', 'theone_clinic_fix_menu_placeholder_link_atts', 10, 2);
+
+function theone_clinic_fix_placeholders_in_content(string $content): string
+{
+	return theone_clinic_expand_placeholders_in_html($content);
+}
+add_filter('the_content', 'theone_clinic_fix_placeholders_in_content', 9);
+
+function theone_clinic_fix_placeholders_in_rendered_block(string $block_content, array $block): string
+{
+	return theone_clinic_expand_placeholders_in_html($block_content);
+}
+add_filter('render_block', 'theone_clinic_fix_placeholders_in_rendered_block', 9, 2);
+
 function theone_clinic_register_promotions_cpt(): void
 {
 	$labels = [
