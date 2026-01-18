@@ -17,6 +17,12 @@ add_action('after_setup_theme', 'theone_clinic_setup');
 function theone_clinic_enqueue_assets(): void
 {
 	$theme_uri = get_template_directory_uri();
+	$theme_dir = get_template_directory();
+
+	$css_path = $theme_dir . '/css/style.css';
+	$js_path = $theme_dir . '/js/main.js';
+	$css_ver = file_exists($css_path) ? (string) filemtime($css_path) : '1.0.0';
+	$js_ver = file_exists($js_path) ? (string) filemtime($js_path) : '1.0.0';
 
 	wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css', [], '5.3.0');
 	wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', [], '4.1.1');
@@ -24,10 +30,10 @@ function theone_clinic_enqueue_assets(): void
 	wp_enqueue_style('theone-google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap', [], null);
 
 	// Oryginalny CSS z projektu (z zachowaniem ścieżek względnych do media/).
-	wp_enqueue_style('theone-style', $theme_uri . '/css/style.css', ['bootstrap', 'animate', 'fontawesome', 'theone-google-fonts'], '1.0.0');
+	wp_enqueue_style('theone-style', $theme_uri . '/css/style.css', ['bootstrap', 'animate', 'fontawesome', 'theone-google-fonts'], $css_ver);
 
 	wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js', [], '5.3.0', true);
-	wp_enqueue_script('theone-main', $theme_uri . '/js/main.js', [], '1.0.0', true);
+	wp_enqueue_script('theone-main', $theme_uri . '/js/main.js', [], $js_ver, true);
 }
 add_action('wp_enqueue_scripts', 'theone_clinic_enqueue_assets');
 
@@ -187,7 +193,41 @@ function theone_clinic_expand_link_placeholders(string $value): string
 
 function theone_clinic_expand_placeholders_in_html(string $html): string
 {
-	return theone_clinic_expand_link_placeholders($html);
+	if ($html === '') {
+		return $html;
+	}
+
+	// Decode only encoded brackets used by placeholders.
+	$decoded = preg_replace(['/%5B/i', '/%5D/i'], ['[', ']'], $html);
+	$decoded = is_string($decoded) ? $decoded : $html;
+
+	$replacements = [
+		'[theone_phone_href]' => theone_clinic_get_setting('theone_phone_href'),
+		'[theone_maps_url]' => theone_clinic_get_setting('theone_maps_url'),
+		'[theone_booksy_url]' => theone_clinic_get_setting('theone_booksy_url'),
+	];
+
+	$expanded = strtr($decoded, $replacements);
+
+	// Normalize broken absolute URLs stored inside HTML attributes, e.g. href="/https://..."
+	// which the browser resolves to https://site.tld/https://...
+	$expanded = preg_replace('#(href\s*=\s*["\"])\s*/(https?://)#i', '$1$2', $expanded);
+	$expanded = preg_replace('#(href\s*=\s*["\"])\s*/(tel:)#i', '$1$2', $expanded);
+	$expanded = preg_replace('#(href\s*=\s*["\"])https?://[^/]+/(https?://[^"\"]+)#i', '$1$2', $expanded);
+	$expanded = preg_replace('#(href\s*=\s*["\"])https?://[^/]+/(tel:[^"\"]+)#i', '$1$2', $expanded);
+	$expanded = is_string($expanded) ? $expanded : (string) strtr($decoded, $replacements);
+
+	// WordPress wpautop() can wrap standalone HTML comments in empty paragraphs, e.g.
+	// <p><!-- Example Gallery Item --></p>. This adds unwanted whitespace in layouts.
+	$expanded = preg_replace('#<p>\s*(?:<!--.*?-->\s*)+</p>#s', '', $expanded);
+
+	// wpautop() can also generate empty paragraphs (often from blank lines around raw HTML)
+	// like <p><br></p>, <p>&nbsp;</p> or <p>\s+</p>. Strip those to prevent large gaps.
+	$expanded = preg_replace('#<p>\s*(?:&nbsp;|\xC2\xA0)?\s*</p>#i', '', $expanded);
+	$expanded = preg_replace('#<p>\s*(?:<br\s*/?>\s*)+</p>#i', '', $expanded);
+	$expanded = is_string($expanded) ? $expanded : (string) $expanded;
+
+	return $expanded;
 }
 
 function theone_clinic_fix_menu_placeholder_urls($menu_item)
@@ -214,7 +254,8 @@ function theone_clinic_fix_placeholders_in_content(string $content): string
 {
 	return theone_clinic_expand_placeholders_in_html($content);
 }
-add_filter('the_content', 'theone_clinic_fix_placeholders_in_content', 9);
+// Run after wpautop() (default priority 10) so we can clean up its empty <p> artifacts.
+add_filter('the_content', 'theone_clinic_fix_placeholders_in_content', 11);
 
 function theone_clinic_fix_placeholders_in_rendered_block(string $block_content, array $block): string
 {

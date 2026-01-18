@@ -8,6 +8,16 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="<?php echo esc_attr(theone_clinic_get_meta_description()); ?>">
+	<?php
+		$theone_css_path = get_template_directory() . '/css/style.css';
+		$theone_css_mtime = file_exists($theone_css_path) ? (string) filemtime($theone_css_path) : 'missing';
+		$theone_js_path = get_template_directory() . '/js/main.js';
+		$theone_js_mtime = file_exists($theone_js_path) ? (string) filemtime($theone_js_path) : 'missing';
+	?>
+	<meta name="theone-theme-css-mtime" content="<?php echo esc_attr($theone_css_mtime); ?>">
+	<meta name="theone-theme-js-mtime" content="<?php echo esc_attr($theone_js_mtime); ?>">
+	<!-- theone-theme-css-mtime=<?php echo esc_html($theone_css_mtime); ?> -->
+	<!-- theone-theme-js-mtime=<?php echo esc_html($theone_js_mtime); ?> -->
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

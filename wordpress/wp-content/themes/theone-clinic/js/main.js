@@ -246,6 +246,105 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // ==========================================
+    // Gallery Filters (Efekty przed i po)
+    // ==========================================
+    document.querySelectorAll('.gallery-filters').forEach(filtersContainer => {
+        const filterBtns = filtersContainer.querySelectorAll('.filter-btn');
+        if (filterBtns.length === 0) {
+            return;
+        }
+
+        // Scope items to the closest page/content container (WP may wrap blocks in extra divs).
+        const scopeRoot =
+            filtersContainer.closest('.service-content') ||
+            filtersContainer.closest('.service-page') ||
+            document;
+        const galleryItems = scopeRoot.querySelectorAll('.before-after-gallery .gallery-item, .gallery-item');
+
+        filterBtns.forEach(btn => {
+            // Prevent accidental form submit if gallery is inside a form.
+            btn.setAttribute('type', 'button');
+
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                filterBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const filterValue = this.getAttribute('data-filter') || 'all';
+
+                galleryItems.forEach(item => {
+                    const category = item.getAttribute('data-category');
+                    const shouldShow = filterValue === 'all' || category === filterValue;
+
+                    item.style.display = shouldShow ? 'block' : 'none';
+                    if (shouldShow) {
+                        item.classList.add('animate__animated', 'animate__fadeIn');
+                    }
+                });
+            });
+        });
+    });
+
+    // ==========================================
+    // FAQ Categories + Accordion
+    // ==========================================
+    document.querySelectorAll('.faq-categories').forEach(categoriesContainer => {
+        const categoryBtns = categoriesContainer.querySelectorAll('.faq-category-btn');
+        if (categoryBtns.length === 0) {
+            return;
+        }
+
+        const scopeRoot =
+            categoriesContainer.closest('.service-content') ||
+            categoriesContainer.closest('.service-page') ||
+            document;
+        const faqSections = scopeRoot.querySelectorAll('.faq-section');
+
+        categoryBtns.forEach(btn => {
+            btn.setAttribute('type', 'button');
+
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const category = this.getAttribute('data-category');
+                if (!category) {
+                    return;
+                }
+
+                faqSections.forEach(section => {
+                    const sectionCategory = section.getAttribute('data-category');
+                    const shouldShow = sectionCategory === category;
+                    section.style.display = shouldShow ? 'block' : 'none';
+                    if (shouldShow) {
+                        section.classList.add('animate__animated', 'animate__fadeIn');
+                    }
+                });
+            });
+        });
+
+        // Accordion behavior scoped to the same content.
+        const faqQuestions = scopeRoot.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', function() {
+                const faqItem = this.parentElement;
+                if (!faqItem) {
+                    return;
+                }
+
+                const isActive = faqItem.classList.contains('active');
+                scopeRoot.querySelectorAll('.faq-item').forEach(item => item.classList.remove('active'));
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    });
+
+    // ==========================================
     // Lazy Loading for Images
     // ==========================================
     if ('loading' in HTMLImageElement.prototype) {
